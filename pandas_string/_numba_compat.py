@@ -4,6 +4,7 @@ import numba
 import numpy as np
 import pyarrow as pa
 
+# hardcoded at the moment but can be inferred
 _string_buffer_types = np.uint8, np.uint32, np.uint8
 
 
